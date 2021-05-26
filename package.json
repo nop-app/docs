@@ -1,0 +1,16 @@
+{
+  "name": "docs.nop.is",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Danilo Polani <hello@nop.is>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {}
+}
