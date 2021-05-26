@@ -123,7 +123,7 @@ Nop.init({
 <small>**Type**: `String`</small>  
 <small>**Default**: `/`</small>  
 
-<small>*Optional*</small> The URL in which the **owner** will be redirected when accepting an access requests and, therefore, his session is closed.  
+<small>*Optional*</small> The URL in which the **owner** will be redirected when accepting an access request and, therefore, his session has been closed.  
 If you're looking for more control, take a look to [onApprove](#on-approve).
 
 ```js
@@ -132,16 +132,16 @@ Nop.init({
 });
 ```
 
-### `redirectOnApprove`
+### `redirectOnForced`
 
 <small>**Type**: `String`</small>  
 <small>**Default**: `/`</small>  
 
-<small>*Optional*</small> The URL in which the **owner** will be redirected when accepting an access requests and, therefore, his session is closed.  
-If you're looking for more control, take a look to [onApprove](#on-approve).
+<small>*Optional*</small> The URL in which the **owner** will be redirected when an access request has been forced from a *guest* and, therefore, his session has been closed.  
+If you're looking for more control, take a look to [onForced](#on-forced).
 
 ```js
 Nop.init({
-    redirectOnApprove: '/yay',
+    redirectOnForced: '/kick',
 });
 ```
