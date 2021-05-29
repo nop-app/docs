@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Nop',
+  title: 'Nop Docs',
   description: 'Documentation for Nop',
   themeConfig: {
     // if your docs are in a different repo from your main project:
@@ -14,14 +14,9 @@ module.exports = {
       { text: 'GitHub', link: 'https://github.com/nop-is' },
     ],
     sidebar: [
-      {
-        title: 'Counter',
-        collapsable: false,
-        children: [
-          ['/counter/usage', 'Usage'],
-          ['/counter/see-also', 'See Also']
-        ]
-      }
+     '/',
+      '/configuration/',
+      '/customize/',
     ],
   }
 }
