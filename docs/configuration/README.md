@@ -52,11 +52,11 @@ Nop.init({
 <small>**Type**: `String | Object`</small>  
 <small>**Default**: `en-US`</small>  
 
-<small>*Optional*</small> The locale used to translate the messages. You can provide a custom translation providing an **object** as argument. [On GitHub](https://github.com/nop-is/i18n/blob/master/en-US.json) you can find the keys and their translation values.  
+<small>*Optional*</small> The locale used to translate the messages. You can provide a custom translation providing an **object** as argument. [On GitHub](https://github.com/nop-app/i18n/blob/master/en-US.json) you can find the keys and their translation values.  
 
 ::: tip Locales
 These are the locales currently supported out-of-the-box: <strong>en-US</strong>, <strong>it-IT</strong>.  
-If you'd like to contribute to add new locales, please submit a PR in the [GitHub repository](https://github.com/nop-is/i18n).
+If you'd like to contribute to add new locales, please submit a PR in the [GitHub repository](https://github.com/nop-app/i18n).
 :::
 
 **Example 1**

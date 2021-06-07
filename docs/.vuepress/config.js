@@ -4,7 +4,7 @@ module.exports = {
   dest: 'dist',
   themeConfig: {
     // if your docs are in a different repo from your main project:
-    docsRepo: 'nop-is/docs',
+    docsRepo: 'nop-app/docs',
     // if your docs are not at the root of the repo:
     docsDir: 'docs',
     // defaults to false, set to true to enable
@@ -12,7 +12,7 @@ module.exports = {
 
     nav: [
       { text: 'Nop', link: 'https://nop.is' },
-      { text: 'GitHub', link: 'https://github.com/nop-is' },
+      { text: 'GitHub', link: 'https://github.com/nop-app' },
     ],
     sidebar: [
      '/',
