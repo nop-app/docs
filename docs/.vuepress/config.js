@@ -15,9 +15,26 @@ module.exports = {
       { text: 'GitHub', link: 'https://github.com/nop-app' },
     ],
     sidebar: [
-     '/',
-      '/configuration/',
-      '/customize/',
+      {
+        title: 'Installation',
+        path: '/',
+        collapsable: false,
+      },
+      {
+        title: 'Usage',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+          'usage/important-notes',
+          'usage/settings',
+          'usage/methods',
+        ],
+      },
+      {
+        title: 'Customize',
+        path: '/customize/',
+        collapsable: false,
+      }
     ],
   },
 }
