@@ -21,7 +21,7 @@ yarn add @nop-app/vue-nop@^2
 You can see a working demo repository [on GitHub](https://github.com/nop-app/demo-vue-router).
 :::
 
-Include and use VueNop inside your main file. In order to let it work, you must provide the router instance too:
+Include and use VueNop inside your main file. In order to let it work, you must provide the router instance too.
 
 ```js
 import Vue from 'vue'

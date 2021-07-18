@@ -32,6 +32,7 @@ module.exports = {
         title: 'Integrations',
         children: [
           'integrations/vue',
+          'integrations/nuxt',
         ],
       },
       {
