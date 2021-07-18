@@ -22,12 +22,16 @@ module.exports = {
       },
       {
         title: 'Usage',
-        collapsable: false,
-        sidebarDepth: 2,
         children: [
           'usage/important-notes',
           'usage/settings',
           'usage/methods',
+        ],
+      },
+      {
+        title: 'Integrations',
+        children: [
+          'integrations/vue',
         ],
       },
       {
